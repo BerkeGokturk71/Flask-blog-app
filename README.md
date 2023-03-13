@@ -17,8 +17,8 @@ HOME PAGE
 
 ![image](https://user-images.githubusercontent.com/64870723/224672323-fbebdf40-46bb-489f-9f28-b65610782cc5.png)
 
-I didnt use any sql database but you can use.I prefer json file to data.  
+I didnt use any sql database but you can use.I prefer json file to sql.  
 
-If you member share post you can see in her/him name 
+If yours member share any post you can see in her/him name in the post 
 
 ![image](https://user-images.githubusercontent.com/64870723/224672960-83dcf18e-8188-41fa-9d05-92ff9097a58c.png)
