@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/posts.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src='static/ckeditor.js')></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js"></script>
+
+</head>
+<body>
+{% extends 'base.html' %}
+{% block body_content %}
+
+    <div class="post-page">
+        <form method='post' action="{{ url_for('posts') }}">
+            <h3>Paylaşım Yapma Ekranı</h3>
+            <div class="post">
+                <ul>
+                    <li id="title-entry">
+                        <label for="title">Başlık</label>
+                        <input type="text" name="title" id="title" placeholder="Başlık Giriniz" value="">
+                    </li>
+                    <li id="topic-entry">
+                        <label for="category">Makale Kategorisi</label>
+                        <select id="category" name="category_id">
+                            <option value="Software">Software</option>
+                            <option value="Python_Solutions">Python-Solutions</option>
+                            <option value="Admin_advice">Admin_advice</option>
+
+                        </select>
+                    </li>
+
+                    <li id="text-alani-li">
+                        <textarea id="editor" name="text-alani" placeholder="Paylaşmak İstediğiniz Metni Buraya Giriniz"></textarea>
+
+                    </li>
+
+                </ul>
+                <div class="button-send">
+                    <input type="submit" value="Paylaş">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script>
+
+        ClassicEditor
+                .create( document.querySelector( '#editor' ) )
+                .then( editor => {
+                        console.log( editor );
+                        window.editor= editor
+                } )
+                .catch( error => {
+                        console.error( error );
+                } );
+    </script>
+
+{% endblock %}
+
+
+</body>
+</html>

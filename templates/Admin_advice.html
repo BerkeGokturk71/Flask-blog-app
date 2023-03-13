@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/static/home.css">
+</head>
+{% extends 'base.html' %}
+{% block body_content %}
+
+<body>
+{% for x in range(d) %}
+        <div class="content-all">
+
+                <div>
+
+                    <div id="{{ title_data }}">
+
+                        <h4>{{ text_data[b[x]][0]["title"]["title"] }}</h4>
+                        <p>{{ text_data[b[x]][0]["title"]["text"] }} </p>
+
+
+                        <ul id="show-text-all">
+                            <li><span id="author-span">{{ text_data[b[x]][0]["title"]["author"] }}</span></li>
+                            <li><a id="category-span">{{ text_data[b[x]][0]["title"]["category"] }}</a></li>
+                            <li><span id="time-span"> {{ text_data[b[x]][0]["title"]["time"] }}</span></li>
+
+                        </ul>
+
+
+                    </div>
+
+                </div>
+
+        </div>
+{% endfor %}
+
+</body>
+{% endblock %}
+</html>

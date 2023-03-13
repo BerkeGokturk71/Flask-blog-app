@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/log.css">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+
+</head>
+
+
+    <div class="All-in-one">
+        <div class="navigation-bar">
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li>
+                    <a href="{{ url_for('contact') }}">Category</a>
+                    <ul>
+                        <li><a href="/Software">Software</a></li>
+                        <li><a href="/admin_advice">Admin_advice</a></li>
+                        <li><a href="Software.html">Sport</a></li>
+
+                         <li><a href="Software.html">entertaintment</a></li>
+                    </ul>
+                </li>
+                {% if login_auth == True %}
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                    <li><a href="{{ url_for('posts') }}">Post</a></li>
+                    {% if session["username"] == "Berkehan_Göktürk"%}
+                        <li><a href="{{ url_for('admin_page') }}">Admin-Page</a></li>
+                    {% endif %}
+
+                {% else %}
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                {% endif %}
+                {% if login_auth == False %}
+                    <div class="loginButton-location"><a id="giris-yap" href="{{ url_for('login') }}"> Giriş Yap</a>
+                    </div>
+                {% else %}
+                    <div class="loginButton-location"><a id="giris-yap"  href="{{ url_for('logout') }}">{{ username }} -
+                        Logout Yap</a>
+
+                    </div>
+                {% endif %}
+
+            </ul>
+
+        </div>
+    </div>
+    {% block body_content %}
+    {% endblock %}
+    <footer>
+            <div class="container-col">
+                <ul>
+                    <li>
+                        <a href="#">Home </a>
+                    </li>
+                     <li>
+                        <a href="#">Software </a>
+                    </li>
+                     <li>
+                        <a href="#">Admin_advice </a>
+                    </li>
+                     <li>
+                        <a href="#">Contact </a>
+                    </li>
+                     <li>
+                        <a href="#">About us </a>
+                    </li>
+                    <p class="copyright"> Future Coders @2023</p>
+                </ul>
+
+            </div>
+    </footer>
+
+
+
+
+
+

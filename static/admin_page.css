@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.admin_manager{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    margin-top: 5%;
+
+}
+
+#manager{
+    padding: 10px;
+    margin:10px;
+    overflow: hidden;
+    background-color: #2D3A4A;
+    color: #df7401;
+    justify-items: center;
+    text-align: center;
+
+}
+#manager td{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    align-items: center;
+
+}

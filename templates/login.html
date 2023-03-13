@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+{% extends 'base.html' %}
+{% block body_content %}
+    <title>Login</title>
+
+
+    <div class="Login-page">
+        <form method='post' action="{{ url_for('login') }}">
+            <h3>Giriş Ekranı</h3>
+            <div class="login">
+                <ul>
+                    <li>
+                        <label for="username">Kullanıcı Adı</label>
+                        <input type="text" name="username" id="username" placeholder="username" value="">
+                    </li>
+                    <li>
+                        <label for="passw">Password</label>
+                        <input type="password" name="password" id="passw" placeholder="Password" value="">
+                    </li>
+                </ul>
+                <div class="button-login">
+                    <input type="submit" value="Giris Yap">
+                </div>
+            </div>
+        </form>
+    </div>
+{% endblock %}
+
+
+

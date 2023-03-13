@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/static/home.css">
+
+    <title>Home</title></head>
+<body>
+{% extends 'base.html' %}
+{% block body_content %}
+    <div class="Home-Main">
+        <div class="content-all">
+        <h2>Karma Konular</h2>
+
+
+            {% for x in range(data_sum) %}
+                <div id="{{ title_data }}">
+
+                    <h4>{{ text_data[x][0]["title"]["title"] }}</h4>
+                    <p>{{ text_data[x][0]["title"]["text"][0:50]|safe+"...." }} </p>
+
+                    <ul id="show-text-all">
+                        <li><span id="author-span">{{ text_data[x][0]["title"]["author"] }}</span></li>
+                        <li><a id="category-span" href="{{href+text_data[x][0]["title"]["category"] }}">{{ text_data[x][0]["title"]["category"] }}</a></li>
+                        <li><span id="time-span"> {{ text_data[x][0]["title"]["time"] }}</span></li>
+                        <li><a id="text-devami" href="{{ url_for("post_devami",url=text_data[x][0]["title"]["title"].replace(' ','-')) }}">Devamı için Tıkla</a></li>
+
+                    </ul>
+
+
+                </div>
+
+
+            {% endfor %}
+
+        </div>
+    </div>
+
+
+    </body>
+    </html>
+{% endblock %}

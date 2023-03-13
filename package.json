@@ -1,0 +1,227 @@
+{
+      "topic": [
+            [
+                  {
+                        "title": {
+                              "author": "Berkehan_Göktürk",
+                              "category": "Software",
+                              "id": 20,
+                              "text": "<p>dsddsd</p>",
+                              "time": "Mon Feb 27 17:04:54 2023",
+                              "title": "dsdsdsds"
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Berkehan_Göktürk",
+                              "category": "Software",
+                              "id": 19,
+                              "text": "<p>deneme</p>",
+                              "time": "Sun Feb 26 13:24:22 2023",
+                              "title": "bakaþlim"
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Berkehan_Göktürk",
+                              "category": "Software",
+                              "id": 18,
+                              "text": "<p>id denememiz aktif hale geldi bakalim bi tur</p>",
+                              "time": "Sun Feb 26 13:21:17 2023",
+                              "title": "id denemesi"
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Recep Üçes",
+                              "category": "Admin_advice",
+                              "text": "<p>Ben <strong>Kýzlarý severimmmmm &lt;^3</strong></p>",
+                              "time": "Sun Feb 26 12:46:52 2023",
+                              "title": "Sevrerim Severim"
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Berkehan_Göktürk",
+                              "category": "Software",
+                              "text": "<p>sadadasdasdasdasd</p>",
+                              "time": "Sun Feb 26 12:46:08 2023",
+                              "title": "adasdasdeewfsdf"
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Berkehan_Göktürk",
+                              "category": "Python_Solutions",
+                              "text": "<p>dasdadadasdas</p>",
+                              "time": "Sun Feb 26 12:46:04 2023",
+                              "title": "asdasd"
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Berkehan_Göktürk",
+                              "category": "Software",
+                              "text": "<p>dwdsad</p>",
+                              "time": "Sun Feb 26 12:45:57 2023",
+                              "title": ""
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Berkehan_Göktürk",
+                              "category": "Python_Solutions",
+                              "text": "<p>random</p>",
+                              "time": "Sun Feb 26 12:45:54 2023",
+                              "title": "bakak"
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Berkehan_Göktürk",
+                              "category": "Software",
+                              "text": "Merhaba bugun sizlere flaskta sabit bir html safanizin var oldugunu varsayýyoruz.bu html dosyasýna veritabanýndan (mysql,json,txt dosyasý,sqlite3) gelen bir resmi nasýl ekleyeceginizi gosterecegim.Sayfayi incele dediðinizd muhtemelen sizlere \"&lt;a href='http://127.0.0.1:5000/'&gt; b &lt;/a&gt;\" bu tarzda bir html içerigi dödürecek bunu |safe ile birlikte normal bir html etiketine çevirebilirsiniz.Anlamadýysaniz belirtiniz",
+                              "time": "Sat Feb 25 01:28:47 2023",
+                              "title": "Flask Html içinde Html Ekleme "
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Batuhan Unal",
+                              "category": "Admin_advice",
+                              "text": "Ýsmail'e parasini yolladim ancak yollamadin diyor.Acaba iban numarasinin kafasi karýþýp baska bir yere mi gitti.Admin yanýtlarsan sevinirim.",
+                              "time": "Thu Feb 23 19:36:27 2023",
+                              "title": "Ýsmail Parani Yolladim "
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Ýsmail Bilici",
+                              "category": "Admin_advice",
+                              "text": "Batuhan Ünal adlý arkadaþ para yolladým ibanina bak diyor ama hesapta gözükmüyor admin ne yapiyim?",
+                              "time": "Thu Feb 23 19:35:01 2023",
+                              "title": "Batuhan Param Nerde"
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Batuhan Unal",
+                              "category": "Admin_advice",
+                              "text": "adminniz bugun size python'ýn neden bukadar harika bir yazýlým dili olduðunu gösterecektir",
+                              "time": "Thu Feb 23 19:27:09 2023",
+                              "title": "Adminden inciler"
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Batuhan Unal",
+                              "category": "Software",
+                              "text": "bakalim software kategorisi calýsýyo mu",
+                              "time": "Thu Feb 23 14:38:44 2023",
+                              "title": "Ýnsert paylasaacz"
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Berkehan_Göktürk",
+                              "category": "Python_Solutions",
+                              "text": "napiyon tunalap iyi misin abiçim",
+                              "time": "Thu Feb 23 14:21:10 2023",
+                              "title": "denemelerden "
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Berkehan_Göktürk",
+                              "category": "Admin_advice",
+                              "text": "Dear Unýversity Managament\r\n\r\nÝ’m writing about to  University complaint.I know that when you read my complaint text you will  agree with me.1 weeks  ago.I was going to  from C door to Student Cafeteria ..First I heard a strange  sound. I thought either someone was laughing or joking.5 minutes later I reached unýversity Cafeteria.I ate Daily menu however it was very cold and not enough.Also why we pay 11 Tl .Too expensive .Another unýversity’s Student Cafeteria is cheaper than our Unýversity’s Student cafeteria and if you want to eat more than 1 meal you can eat it .Why dont check out this establish?After the cafeteria I was going to library to studied for writing exam.Ý heard voices again and ignored them.I looked arround then saw group of dog and they surrounded me and started barking .I’m confused what to do.I They was going to attacked my leg and arm.Shortly after ý started to escaped from there.Why dont Unýversity’s staff caught them? What would you do Ýf dogs hurt either me or any human ?\r\nTherefore,I would appreciate it if you  could solve my problem as soon as possýble \r\n\r\nKind Regards\r\n",
+                              "time": "Tue Feb 21 22:32:33 2023",
+                              "title": "Mail"
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Berkehan_Göktürk",
+                              "category": "Software",
+                              "text": "deneeeyyyffffffsdfdsf",
+                              "time": "Tue Feb 21 22:56:19 2023",
+                              "title": "denekler"
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Berkehan_Göktürk",
+                              "category": "Software",
+                              "text": "wfwdfsklbakbkjlasklbvsakþlvkþls kþlkþl ",
+                              "time": "Tue Feb 21 22:58:23 2023",
+                              "title": "deneme"
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Berkehan_Göktürk",
+                              "category": "Software",
+                              "text": "deniyoruz bakalim error almayiz inþ",
+                              "time": "Wed Feb 22 19:05:27 2023",
+                              "title": "Berkehan Gokturk"
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Berkehan_Göktürk",
+                              "category": "Software",
+                              "text": "bakalim tuna alpim cnmmmm iþin gücün rastgitsin tuna alp",
+                              "time": "Wed Feb 22 19:25:53 2023",
+                              "title": "Berkehan gokturk1"
+                        }
+                  }
+            ],
+            [
+                  {
+                        "title": {
+                              "author": "Batuhan Unal",
+                              "category": "Software",
+                              "text": "batuhan unal paylsýmý",
+                              "time": "Thu Feb 23 13:00:07 2023",
+                              "title": "deneme batuhan "
+                        }
+                  }
+            ]
+      ]
+}
