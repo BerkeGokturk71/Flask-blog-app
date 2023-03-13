@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightpink;
+    font-family: "Times New Roman";
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 4rem;
+    color: cadetblue;
+    text-align: center;
+}
+
+h3:active {
+    color: mediumvioletred;
+}
+
+.post-page {
+    margin: auto;
+    margin-top: 10px;
+    padding: 15px;
+    height: 110vh;
+
+}
+
+.post {
+    margin: auto;
+    margin-top: 5px;
+    padding: 15px;
+    height: 30vh;
+    text-align: center;
+    text-decoration: none;
+    overflow: inherit;
+
+}
+
+.post ul li {
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 15px;
+
+}
+
+.post ul li label {
+    float: inherit;
+}
+
+.post ul li textarea {
+    width: 40%;
+    height: 40vh;
+    resize: none;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    overflow: hidden;
+
+}
+.post ul li  span{
+    margin: 20px 20px;
+    padding: 10px 10px;
+    background-color: gray;
+    float: bottom;
+}
+
+#title-entry input {
+    border: 4px blanchedalmond;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    height: auto;
+    width: auto;
+    font-size: larger;
+    border-radius: 10px;
+
+}
+
+#title-entry label {
+    font-size: 30px;
+    padding: 10px 10px;
+
+}
+
+#topic-entry label {
+    font-size: 30px;
+    padding: 10px 10px;
+
+}
+
+#topic-entry select {
+    padding: 10px 10px;
+    margin: 10px 10px;
+
+}
+
+#topic-entry select option {
+    padding: 10px 10px;
+    margin: 10px 10px;
+
+}
+
+.button-send input:hover {
+    background-color: lightpink;
+    color: aliceblue;
+}
+
+.button-send input {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+}

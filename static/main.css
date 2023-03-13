@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    background-color: blue;
+    background-image: linear-gradient(315deg ,blue ,deeppink, white );
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#container{
+    background-color: aliceblue;
+    width: 50rem;
+    min-height: 30vh;
+    border-radius: 1rem;
+    box-shadow: 0 0 1.2rem 0.2rem,lightseagreen;
+
+
+}
+
+#container >*{
+    margin: 1rem;
+    padding: 1rem;
+
+}
+#passw{
+    border: none;
+    border-bottom: 2px solid black ;
+    text-align: center;
+    background-color: aliceblue;
+}
+.navigation-bar{
+    justify-content: right ;
+    align-items: normal;
+}
+
+.navigation-bar ul{
+    margin: 0;
+    padding: 0;
+    overflow:hidden ;
+    background-color: plum;
+}
+.navigation-bar li{
+    float: left;
+}
+
+.navigation-bar li a{
+    text-align: center;
+    color: whitesmoke;
+    padding: 14px 16px;
+
+}
+
+
+
+
+
+
+
+
+
+
